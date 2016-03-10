@@ -1,0 +1,25 @@
+{
+  "name": "react-env-init",
+  "version": "0.1.0",
+  "description": "An initialization scaffolding for express-react-views",
+  "main": "app.js",
+  "bin": {
+  	"envinit": "./bin/envinit"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm install - webpack - node app.js"
+  },
+  "keywords": [
+    "scaffolding",
+    "express-react-views",
+    "initialization",
+    "envinit",
+    "stage"
+  ],
+  "author": "imChenJian",
+  "license": "MIT"
+}

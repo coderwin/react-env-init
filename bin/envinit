@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var envinit = require('../app.js');
+var commander = require('commander');
+var v = require("../conf/version.js");
+
+commander
+    .version(v)
+    .option('-s, --start [git]', 'Start initialize. The git is optional, refers to automatic initialization git')
+    .parse(process.argv);
+
+if (commander.start) {
+    envinit();
+}
