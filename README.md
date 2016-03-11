@@ -50,6 +50,6 @@ install react-env-init:
 
 Then you can run the command to start the application:
 
-* npm install      install dependencies
-* webpack          pack the application
-* node app.js      start application
+* npm install                install dependencies
+* webpack                    pack the application
+* node app.js                start application
